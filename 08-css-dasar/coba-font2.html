@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba - CSS-Font Styling</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+
+      @font-face {
+        font-family: Josefinsans;
+        src: url("Fonts/JosefinSans-ExtraLight.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      h1 {
+        color: rgb(14, 168, 83);
+        font-size: 120px;
+        font-family: "Bitcount Prop Double";
+        font-weight: 400;
+        text-align: center;
+      }
+
+      p {
+        color: blue;
+        font-size: 30px;
+        text-align: center;
+        font-family: lora, arial;
+      }
+
+      .font-Josefinsans {
+        font-family: Josefinsans, arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloremque
+      dolorem neque fugiat suscipit assumenda. Distinctio voluptas iste, nam
+      odio ea accusamus harum voluptatum id ex voluptatem, cupiditate enim
+      necessitatibus!
+    </p>
+    <p class="font-Josefinsans">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque,
+      facere in rem unde voluptates dolore. Nemo animi consequatur dicta?
+    </p>
+  </body>
+</html>
