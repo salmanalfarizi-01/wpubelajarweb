@@ -1,0 +1,26 @@
+h1 {
+  color: blue;
+  font-size: 120px;
+  font-family: Arial, Helvetica, serif;
+  text-align: center;
+}
+
+p {
+  color: navy;
+  font-size: 30px;
+  text-align: center;
+}
+.p2 {
+  color: green;
+}
+#judul {
+  text-transform: uppercase;
+}
+
+#garis-bawah {
+  text-decoration: underline;
+}
+
+.cetak-miring {
+  font-style: italic;
+}
